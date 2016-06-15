@@ -3,7 +3,9 @@ Set of python codes for SERENDIP 6 ETFITS file analysis
 
 FitsBeamRFI
 v1 : Basic version. Background copied from analyedFITS.py (Kyle's code). Just made few modification to plot each beam with respect to each other. 
+
 v2 : Input output of fits file is done with the pyFits, while in the v1 fitsio was used. So structure of the entire program is changed here (active) 
+
 v3 : With histograms for each beam as stacked histograms to identify RFI lines in the histograms (dropped and not done)
 v4 : copied from v2, All beams are in a single panel but with different colour 
 
